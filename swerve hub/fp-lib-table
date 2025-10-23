@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MTJ_88ARX1_FSM_LG")(type "KiCad")(uri "${KIPRJMOD}/../libs/MTJ_88ARX1_FSM_LG")(options "")(descr ""))
+)
