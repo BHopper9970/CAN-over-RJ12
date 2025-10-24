@@ -379,25 +379,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -5.08 13.97 0)
+			(property "Reference" "J1"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Value" "RJ45_LED_Shielded"
-				(at 1.27 13.97 0)
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MTJ_88ARX1_FSM_LG:ADAMTECH_MTJ-88ARX1-FSM-LG"
 				(at 0 0.635 90)
 				(effects
 					(font
@@ -888,7 +886,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "SH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1033,6 +1031,156 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1274,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.85) (xy 133.35 69.85)
+			(xy 118.11 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1611,7 @@
 		(uuid "f280c041-ab7a-454e-a377-5de50081b688")
 	)
 	(label "CANh"
-		(at 129.54 64.77 0)
+		(at 137.16 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1483,7 +1631,7 @@
 		(uuid "29c7b77a-c8af-446e-8327-aa3b36f85c69")
 	)
 	(label "CANl"
-		(at 129.54 67.31 0)
+		(at 137.16 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1634,7 +1782,7 @@
 		(pin "8"
 			(uuid "8d281fd6-67e0-43ad-93d7-72e9ff44b826")
 		)
-		(pin "SH"
+		(pin "SH1"
 			(uuid "1c4bf160-6e74-48db-991e-eef80829f86e")
 		)
 		(pin "12"
@@ -1665,6 +1813,74 @@
 			(project ""
 				(path "/1bba0107-a93b-4d94-aa86-4b676137e64e"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 129.54 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72f23812-531c-490c-a434-74c50a9f6187")
+		(property "Reference" "D1"
+			(at 129.8575 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 129.8575 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 129.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4592133b-3aa1-42e8-8660-b619b73eb956")
+		)
+		(pin "1"
+			(uuid "9808b671-d7de-4b97-8d32-dc9c2a2433b6")
+		)
+		(instances
+			(project ""
+				(path "/1bba0107-a93b-4d94-aa86-4b676137e64e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
