@@ -1,0 +1,212 @@
+(footprint "206-211"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "momentary / push-push button, h=17.5mm C&K PVA1 https://www.ckswitches.com/media/1343/pva.pdf")
+	(tags "tact sw push PVA1 DPST")
+	(property "Reference" "REF**"
+		(at 0 -8.5 0)
+		(layer "F.SilkS")
+		(uuid "f6ee98b5-4773-4eeb-a825-33c1705abace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "206-211"
+		(at 2.5 9 0)
+		(layer "F.Fab")
+		(uuid "5994a946-119f-4db4-aafe-00ae73b5b800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9bba4f3-19b2-4f10-9200-859d3754be0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bb94c49-56a1-4df9-82d7-baaf1d66d345")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.01 -5.09)
+		(end -4.01 -4.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0dfd7c1-401d-4f64-8463-f4c0813ac28f")
+	)
+	(fp_line
+		(start -4.01 -5.09)
+		(end -3.01 -5.09)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd2f6b13-9e35-4a67-90ac-cf0d1ea34e5a")
+	)
+	(fp_line
+		(start -3.91 -4.99)
+		(end 3.91 -4.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	)
+	(fp_line
+		(start -3.91 4.99)
+		(end -3.91 -4.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ff874d0-4ac5-414c-83a7-573eda4c7703")
+	)
+	(fp_line
+		(start -3.91 4.99)
+		(end 3.91 4.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0c46a19-9f23-4cc7-9d7e-5fe3a2e9b118")
+	)
+	(fp_line
+		(start 3.91 4.99)
+		(end 3.91 -4.99)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d2d1190-0606-405d-a619-73d1a5f7f368")
+	)
+	(fp_line
+		(start -3.81 -4.89)
+		(end 3.81 -4.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca213826-0282-4b3a-840f-ec416dc34acf")
+	)
+	(fp_line
+		(start -3.81 4.89)
+		(end -3.81 -4.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3451168c-3c76-4628-aee4-7c231bd100c3")
+	)
+	(fp_line
+		(start -3.81 4.89)
+		(end 3.81 4.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "14f85aa1-d6cf-4744-8d94-3364e8c35f7a")
+	)
+	(fp_line
+		(start 3.81 4.89)
+		(end 3.81 -4.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa08ba45-16ed-4c59-9b8c-13a1e78f73e9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14 0.5 0)
+		(layer "F.Fab")
+		(uuid "be0953c0-632d-4dd2-85e9-4d41239f22d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 -3.81)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36a66260-a729-4d01-b36d-c2dd2dfb2c0a")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 3.81)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b680b4a7-6cb0-40b5-a7ec-a02910a0daa4")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -3.81)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "681bd495-c396-44ce-92bd-4b397cd48c04")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 3.81)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a1c7b1f5-f895-4192-9484-2357882c73e0")
+	)
+	(embedded_fonts no)
+	(model "/home/ben/Documents/CAN-over-RJ45/libs/206-211.STEP"
+		(offset
+			(xyz 0.83 -0.12 7.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
