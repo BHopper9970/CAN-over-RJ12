@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FRC")(type "KiCad")(uri "${KIPRJMOD}/../libs/FRC-KiCAD-master/FRC.kicad_sym")(options "")(descr ""))
+)

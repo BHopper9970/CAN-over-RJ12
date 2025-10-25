@@ -1,0 +1,331 @@
+(footprint "Generic-Data-Port_PinHeader_2x05_P1.27mm-THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Generic 2x5 header used by FRC motor controllers.")
+	(tags "spark rev")
+	(property "Reference" "REF**"
+		(at -1.27 -4.064 0)
+		(layer "F.SilkS")
+		(uuid "8452cc82-3a94-4ff2-bce0-770efe55f632")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(property "Value" "Generic-Data-Port_PinHeader_2x05_P1.27mm-THT"
+		(at 0 4.064 0)
+		(layer "F.Fab")
+		(uuid "7d0d3a82-e06b-4a62-bd32-fa185afbee1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.cnctech.us/pdfs/3220-XX-0100-00_.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37921044-2d9a-47d2-9bc9-2452c69ca4b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic 2x5 header used by FRC motor controllers."
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "946ec65c-95b2-4db6-a155-d6ddb02b4a20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.4008 -3.2512)
+		(end -6.4008 1.9812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "584e2784-4e1e-43b3-9c83-14e55eec33af")
+	)
+	(fp_line
+		(start -6.4008 -3.2512)
+		(end -1.27 -3.2512)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "533ba20f-d41f-4eb8-8306-fc5ad61ab618")
+	)
+	(fp_line
+		(start -1.27 -3.556)
+		(end 1.27 -3.556)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "470f30c4-c2f7-4cb6-bf94-65c916fdbb20")
+	)
+	(fp_line
+		(start -1.27 -3.2512)
+		(end -1.27 -3.556)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a8b3bcf5-9cb1-487b-92ce-147854a268ee")
+	)
+	(fp_line
+		(start 1.27 -3.556)
+		(end 1.27 -3.2512)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "02d69e99-bdd5-423c-8b3c-91e722602e77")
+	)
+	(fp_line
+		(start 3.9624 -3.2512)
+		(end 1.27 -3.2512)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "639fedf8-5c5d-4d08-adb8-ac59b52d6b28")
+	)
+	(fp_line
+		(start 6.5024 -3.2512)
+		(end 5.2324 -3.2512)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a86001a-fb5d-4d38-87f0-dcdec75db7ec")
+	)
+	(fp_line
+		(start 6.5024 -1.9812)
+		(end 6.5024 -3.2512)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4243d49-9ddc-422a-be38-f8e7ec956e79")
+	)
+	(fp_line
+		(start 6.5024 -0.7112)
+		(end 6.5024 1.9812)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db5a4765-9849-455d-aa4a-b25ea0625430")
+	)
+	(fp_line
+		(start 6.5024 1.9812)
+		(end -6.4008 1.9812)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11735b80-0d00-4842-ba97-f1c58f123aba")
+	)
+	(fp_rect
+		(start -6.2992 -3.1496)
+		(end 6.4008 1.8796)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "41848964-cfa1-4f4d-bb82-66cdd2fa027e")
+	)
+	(fp_line
+		(start -4.445 -1.3975)
+		(end -3.6825 -2.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1f605c0c-2036-4954-8dca-73defeffe12c")
+	)
+	(fp_line
+		(start -4.445 0.89)
+		(end -4.445 -1.3975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e4a1cd4-a48e-4776-9995-0c1990719720")
+	)
+	(fp_line
+		(start -3.6825 -2.16)
+		(end 4.445 -2.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88fb60ee-9be9-47a1-874a-de464a051899")
+	)
+	(fp_line
+		(start 4.445 -2.16)
+		(end 4.445 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d95366c-4ce0-4c1c-8e43-4a480f44155f")
+	)
+	(fp_line
+		(start 4.445 0.89)
+		(end -4.445 0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f66809c2-5c4c-4b47-846b-78f86404464e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.413 0)
+		(layer "F.Fab")
+		(uuid "f304c862-2ab8-48ea-94ac-04c307dcb4b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 -1.27 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fbfc170-e2bd-4816-9647-b59bcfc6f62c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19a18963-c908-438b-a583-bb2f05063c60")
+	)
+	(pad "3" thru_hole circle
+		(at 1.27 -1.27 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "691bfa8c-00cf-45e6-a63f-b1d906755466")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 0 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de4f68d6-9ac6-4281-85af-73e725c905fe")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -1.27 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c2290fd-71f4-4465-86ba-6cdd794d3407")
+	)
+	(pad "6" thru_hole circle
+		(at 0 0 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf607ede-2920-4107-b60f-88cd075db186")
+	)
+	(pad "7" thru_hole circle
+		(at -1.27 -1.27 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0956ad37-d892-4c7a-bd58-2ff2528d6c17")
+	)
+	(pad "8" thru_hole circle
+		(at -1.27 0 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b939bca7-01b7-487a-9629-beed94d043df")
+	)
+	(pad "9" thru_hole circle
+		(at -2.54 -1.27 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34d2794c-20cc-490a-81e8-148ddd2065a3")
+	)
+	(pad "10" thru_hole circle
+		(at -2.54 0 90)
+		(size 1 1)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1800fc31-da04-4dad-b829-d7b371642c75")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/FRC/3d/3220-10-0100-00.STEP"
+		(offset
+			(xyz 0 0.635 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+	(model "${KIPRJMOD}/FRC/3d/FFSD_05_D_10_00_01_N/FFSD-05-D-10.00-01-N-modified.step"
+		(offset
+			(xyz 0 0.635 1.905)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
