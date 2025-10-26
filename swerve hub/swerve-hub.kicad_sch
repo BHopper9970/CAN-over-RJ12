@@ -1140,16 +1140,16 @@
 		(uuid "12b5e742-6607-4102-8a16-d73ddc605eef")
 	)
 	(junction
-		(at 119.38 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cc190c2-580d-4504-9732-22e13535200c")
-	)
-	(junction
 		(at 156.21 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bbf2e79-92e2-4345-9252-ba4cd9dba414")
+	)
+	(junction
+		(at 130.81 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e2a89f2-891c-4250-80d0-2c46f3c73c54")
 	)
 	(junction
 		(at 133.35 72.39)
@@ -1164,10 +1164,10 @@
 		(uuid "c204f9f5-1aa2-43d1-b501-104efc27992e")
 	)
 	(junction
-		(at 125.73 72.39)
+		(at 129.54 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3645413-84ab-493a-b0f1-3a6f53e09f4c")
+		(uuid "f3c84c23-9953-4ae3-aaff-6b9fab54a470")
 	)
 	(no_connect
 		(at 156.21 80.01)
@@ -1215,6 +1215,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ec5f5fc-9fe5-47f8-8684-840b29ee6c61")
+	)
+	(wire
+		(pts
 			(xy 118.11 64.77) (xy 156.21 64.77)
 		)
 		(stroke
@@ -1222,16 +1232,6 @@
 			(type default)
 		)
 		(uuid "2389f040-6232-4844-9534-b1272b211b69")
-	)
-	(wire
-		(pts
-			(xy 125.73 72.39) (xy 133.35 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b21b49-fa3b-47c2-8a8c-86d8204dd73b")
 	)
 	(wire
 		(pts
@@ -1255,6 +1255,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350b0423-736f-408d-b796-3809c5ff36fd")
+	)
+	(wire
+		(pts
 			(xy 133.35 72.39) (xy 149.86 72.39)
 		)
 		(stroke
@@ -1265,13 +1275,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 125.73 69.85)
+			(xy 128.27 69.85) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cb324e2-a3d8-4349-a024-b1bc31a400fc")
+		(uuid "4bf533e7-73b3-4d73-8f8b-cd84e0b59bbc")
 	)
 	(wire
 		(pts
@@ -1285,17 +1295,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 69.85) (xy 119.38 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59e8f417-4c25-468e-a548-9f5718bd1a9e")
-	)
-	(wire
-		(pts
-			(xy 125.73 77.47) (xy 125.73 72.39)
+			(xy 130.81 77.47) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1315,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 72.39) (xy 125.73 72.39)
+			(xy 118.11 72.39) (xy 130.81 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1335,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 77.47) (xy 125.73 77.47)
+			(xy 118.11 77.47) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1355,17 +1355,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 69.85) (xy 144.78 69.85)
+			(xy 129.54 69.85) (xy 144.78 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f0f5743-9f79-4222-89b4-f609f629b356")
+		(uuid "9743c36b-dcc8-48b4-9f2c-f2d9d993b090")
 	)
 	(wire
 		(pts
-			(xy 118.11 74.93) (xy 119.38 74.93)
+			(xy 118.11 74.93) (xy 129.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1385,7 +1385,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 119.38 69.85)
+			(xy 129.54 74.93) (xy 129.54 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1414,7 @@
 		(uuid "2442b68a-579e-4d0b-ad5e-5c6dcee71a4c")
 	)
 	(label "12v"
-		(at 120.65 69.85 0)
+		(at 133.35 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 129.54 69.85 180)
+		(at 124.46 69.85 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1738,7 +1738,7 @@
 		(fields_autoplaced yes)
 		(uuid "72f23812-531c-490c-a434-74c50a9f6187")
 		(property "Reference" "D1"
-			(at 129.8575 63.5 0)
+			(at 124.7775 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1746,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 129.8575 66.04 0)
+			(at 124.7775 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,7 +1754,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 129.54 69.85 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 69.85 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1772,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 129.54 69.85 0)
+			(at 124.46 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 			(uuid "9808b671-d7de-4b97-8d32-dc9c2a2433b6")
 		)
 		(instances
-			(project ""
+			(project "swerve-hub"
 				(path "/1bba0107-a93b-4d94-aa86-4b676137e64e"
 					(reference "D1")
 					(unit 1)

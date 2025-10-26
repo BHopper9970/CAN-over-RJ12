@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "FRC")(type "KiCad")(uri "${KIPRJMOD}/../libs/FRC-KiCAD-master/FRC.pretty")(options "")(descr ""))
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/../libs/custom.pretty")(options "")(descr ""))
 )
