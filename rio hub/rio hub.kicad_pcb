@@ -127,7 +127,7 @@
 		(property "Reference" "J2"
 			(at 1.81 -10.27 90)
 			(layer "F.SilkS")
-			(uuid "0a93db2c-2ff5-4f43-8320-67fae2af4108")
+			(uuid "1a9c5f88-d5e8-4aef-a49a-a4f7a764af27")
 			(effects
 				(font
 					(size 1 1)
@@ -138,7 +138,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 1.81 6.47 90)
 			(layer "F.Fab")
-			(uuid "f7494c94-1db6-4b5a-8129-f64fdbce9b61")
+			(uuid "fc395d48-e078-4cb0-8d84-c1dc658c20a8")
 			(effects
 				(font
 					(size 1 1)
@@ -150,7 +150,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "403bd7bf-ee91-4344-a847-e45eff0eff77")
+			(uuid "d2454451-ffac-4b39-8185-ed9c809a9b23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,7 +162,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "847cc380-55bf-4dea-8948-c59e28f5a3a3")
+			(uuid "5f6c7601-f630-4523-98b9-7157c0a8e7e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,6 +3781,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "(G)"
+		(at 101.5 114.25 90)
+		(layer "F.SilkS")
+		(uuid "753f6648-2c39-494f-ae7a-54191f7bba8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "DIO10/PWM6"
 		(at 111 149.836 90)
 		(layer "F.SilkS")
@@ -3791,6 +3802,17 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "(Y)"
+		(at 101.5 117 90)
+		(layer "F.SilkS")
+		(uuid "87674e1a-cc35-4b42-b7a7-ba512c0758eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "AO1\n"
@@ -3815,6 +3837,28 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n"
+		(at 101 133.5 90)
+		(layer "F.SilkS")
+		(uuid "9143e58e-eb84-4625-b865-ffa4a8f0ef3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "GND\n"
+		(at 101.75 123.75 90)
+		(layer "F.SilkS")
+		(uuid "95d91da5-868e-456b-a92a-d67eb47bd2c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "DIO14/I2C SCL\n"
@@ -3863,6 +3907,28 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 101.75 120.5 90)
+		(layer "F.SilkS")
+		(uuid "ad9ccea5-797e-4501-9f91-0b65a8e25154")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "12V"
+		(at 100.75 129.75 90)
+		(layer "F.SilkS")
+		(uuid "adf2837a-f82a-4da8-88ab-963a35e3f50c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "AI1"

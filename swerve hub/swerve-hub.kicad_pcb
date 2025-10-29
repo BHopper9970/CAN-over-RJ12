@@ -1925,8 +1925,8 @@
 		(layer "Edge.Cuts")
 		(uuid "f852fa4d-d23c-48c9-ac3c-47f93c4ef20f")
 	)
-	(gr_text "CANh (G)"
-		(at 84.328 61.976 0)
+	(gr_text "(G)"
+		(at 88 62 0)
 		(layer "F.SilkS")
 		(uuid "00b18afd-ecfd-46d8-88f8-df552c7b36d9")
 		(effects
@@ -1938,7 +1938,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 94.234 60.706 0)
+		(at 95.2 60.8 0)
 		(layer "F.SilkS")
 		(uuid "66d1218a-2123-4e84-a98a-e65a05c2d85b")
 		(effects
@@ -1962,7 +1962,7 @@
 		)
 	)
 	(gr_text "12v\n"
-		(at 100.206 60.7325 0)
+		(at 99.4 60.7 0)
 		(layer "F.SilkS")
 		(uuid "ba0d4f4a-9bdc-40fa-b0ba-52854a967413")
 		(effects
@@ -1985,8 +1985,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CANl (Y)"
-		(at 88.392 66.548 0)
+	(gr_text "(Y)"
+		(at 88.176 64.6 0)
 		(layer "F.SilkS")
 		(uuid "ddff520e-d16c-4e48-af1c-5ad1de4bebf6")
 		(effects

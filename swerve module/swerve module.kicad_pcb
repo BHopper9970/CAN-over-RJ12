@@ -1317,7 +1317,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 5.08 1.25 90)
+			(at 5.05 0.1 90)
 			(layer "F.Fab")
 			(uuid "a6a2e110-158b-4f57-b75f-f4404fa38ad1")
 			(effects
@@ -1428,17 +1428,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "91ea13fe-9a10-4a1f-88e4-04b6d0fdedd7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 90)
-			(layer "F.Fab")
-			(uuid "b93017ef-b77d-4608-a909-50fceb26bf5d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
@@ -2386,7 +2375,7 @@
 		(descr "momentary / push-push button, h=17.5mm C&K PVA1 https://www.ckswitches.com/media/1343/pva.pdf")
 		(tags "tact sw push PVA1 DPST")
 		(property "Reference" "SW1"
-			(at -5.5 4.25 0)
+			(at -2.25 6 0)
 			(layer "F.SilkS")
 			(uuid "83bfa9c4-4623-41e3-be6c-34a570fafb5b")
 			(effects
@@ -2733,6 +2722,28 @@
 		(layer "Edge.Cuts")
 		(uuid "eebaa1ab-f351-4869-b38a-1521c7c58a1f")
 	)
+	(gr_text "thru"
+		(at 102.75 65.75 0)
+		(layer "F.SilkS")
+		(uuid "3066489c-dcb6-4ea4-8b13-f9f3af45a954")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "OUT\n"
+		(at 126 67.25 0)
+		(layer "F.SilkS")
+		(uuid "342d306b-ccf1-45bb-b347-e41661bc2357")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "(Y) (G)"
 		(at 111.506 42.164 0)
 		(layer "F.SilkS")
@@ -2766,10 +2777,10 @@
 			)
 		)
 	)
-	(gr_text "GND 12v"
-		(at 102.108 42.164 0)
+	(gr_text "term"
+		(at 102.75 62.25 0)
 		(layer "F.SilkS")
-		(uuid "b76e9a8c-e26d-402b-8cb8-843786121011")
+		(uuid "7c62edb4-4e25-4352-8595-3ac68e0739ee")
 		(effects
 			(font
 				(size 1 1)
@@ -2777,10 +2788,10 @@
 			)
 		)
 	)
-	(gr_text "12v"
-		(at 101.6 39.37 0)
+	(gr_text "GND 12v"
+		(at 102.108 42.164 0)
 		(layer "F.SilkS")
-		(uuid "bf20fbb7-ee2a-486d-abb5-130ac28398da")
+		(uuid "b76e9a8c-e26d-402b-8cb8-843786121011")
 		(effects
 			(font
 				(size 1 1)
@@ -2795,6 +2806,17 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "IN"
+		(at 80 67.25 0)
+		(layer "F.SilkS")
+		(uuid "e499cb6a-5a6d-40e7-8ef4-7881bd3f25b1")
+		(effects
+			(font
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
 		)
@@ -3248,7 +3270,7 @@
 		)
 		(polygon
 			(pts
-				(xy 69.342 34.798) (xy 138.176 35.306) (xy 137.668 77.724) (xy 67.31 77.47) (xy 69.342 34.798)
+				(xy 69.342 34.798) (xy 138.176 35.306) (xy 137.668 77.724) (xy 67.31 77.47)
 			)
 		)
 		(filled_polygon

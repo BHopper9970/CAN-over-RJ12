@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MTJ-88ARX1-FSM-LG")(type "KiCad")(uri "${KIPRJMOD}/../libs/MTJ_88ARX1_FSM_LG/MTJ-88ARX1-FSM-LG.kicad_sym")(options "")(descr ""))
+)
