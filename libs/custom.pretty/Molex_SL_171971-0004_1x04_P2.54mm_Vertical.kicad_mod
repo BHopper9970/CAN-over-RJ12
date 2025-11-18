@@ -499,6 +499,7 @@
 		)
 	)
 	(model "/home/ben/Documents/CAN-over-RJ45/libs/2162711040.stp"
+		(hide yes)
 		(offset
 			(xyz -0.5 1.5 18)
 		)
