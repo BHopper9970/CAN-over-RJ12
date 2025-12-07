@@ -490,7 +490,7 @@
       "plot": "JLC/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/rio module.step",
       "svg": "",
       "vrml": ""
     },

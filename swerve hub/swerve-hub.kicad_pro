@@ -503,7 +503,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "swerve-hub.step",
+      "step": "../../../Downloads/swerve hub.step",
       "svg": "",
       "vrml": ""
     },
