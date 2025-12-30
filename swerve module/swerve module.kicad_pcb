@@ -2425,7 +2425,7 @@
 		(path "/efea4e66-4abb-4f11-a77b-814b527c9bac")
 		(sheetname "/")
 		(sheetfile "swerve module.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -4.01 -5.09)
 			(end -4.01 -4.09)
