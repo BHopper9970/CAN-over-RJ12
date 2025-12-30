@@ -1075,6 +1075,7 @@
 			)
 		)
 		(model "/home/ben/Documents/CAN-over-RJ45/libs/2162711040.stp"
+			(hide yes)
 			(offset
 				(xyz -0.5 1.5 18)
 			)
@@ -2055,6 +2056,7 @@
 			)
 		)
 		(model "/home/ben/Documents/CAN-over-RJ45/libs/2162711040.stp"
+			(hide yes)
 			(offset
 				(xyz -0.5 1.5 18)
 			)
@@ -3035,6 +3037,7 @@
 			)
 		)
 		(model "/home/ben/Documents/CAN-over-RJ45/libs/2162711040.stp"
+			(hide yes)
 			(offset
 				(xyz -0.5 1.5 18)
 			)
@@ -3103,7 +3106,7 @@
 		(path "/25fa8e66-10a3-4691-98a7-e31ca3b7ea6d")
 		(sheetname "/")
 		(sheetfile "rio module.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -4.01 -5.09)
 			(end -4.01 -4.09)
@@ -4700,6 +4703,7 @@
 			)
 		)
 		(model "/home/ben/Documents/CAN-over-RJ45/libs/2162711040.stp"
+			(hide yes)
 			(offset
 				(xyz -0.5 1.5 18)
 			)
